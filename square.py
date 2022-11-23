@@ -29,22 +29,22 @@ def produceArr(arr):
 
     
     try:
-        e1 = lambda arr: swap(i, i-3, arr)
+        e1 = lambda arr: swap(marker, marker-3, arr)
     except:
         e1 = []
 
     try:
-        e2 = lambda arr: swap(i, i+3, arr)
+        e2 = lambda arr: swap(marker, marker+3, arr)
     except:
         e2 = []
 
     try:
-        e3 = lambda arr: swap(i, i-1, arr)
+        e3 = lambda arr: swap(marker, marker-1, arr)
     except:
         e3 = []
     
     try:
-        e4 = lambda arr: swap(i, i+1, arr)
+        e4 = lambda arr: swap(marker, marker+1, arr)
     except:
         e4 = []
 
